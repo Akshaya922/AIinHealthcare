@@ -2,22 +2,22 @@ const applications = [
     {
         title: "Medical Imaging",
         description: "AI detects diseases in X-rays and MRIs with incredible precision.",
-        image: "MI.jpg",
+        image: "images/MI.jpg",
     },
     {
         title: "Virtual Health Assistants",
         description: "AI-powered chatbots provide 24/7 support for patients.",
-        image: "VHI.jpeg",
+        image: "images/VHI.jpeg",
     },
     {
         title: "Predictive Analytics",
         description: "Analyze patient data to predict and prevent diseases.",
-        image: "PA.jpeg",
+        image: "images/PA.jpeg",
     },
     {
         title: "Remote Monitoring",
         description: "AI enables continuous monitoring of patients at home.",
-        image: "RM.jpeg",
+        image: "images/RM.jpeg",
     },
 ];
 
@@ -39,3 +39,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log("Applications loaded successfully.");
 });
+
