@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI in Healthcare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>AI in Healthcare</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <h2>Revolutionizing Healthcare with AI</h2>
+        <p>Explore the transformative power of AI in diagnostics, treatment, and beyond.</p>
+        <button onclick="scrollToSection('about')">Learn More</button>
+        <img src="ai1.jpg" alt="Healthcare and AI illustration" class="hero-image">
+    </section>
+
+    <main>
+        <section id="about" class="content">
+            <h2>About AI in Healthcare</h2>
+            <p>AI is transforming healthcare by enhancing accuracy, efficiency, and accessibility
+                AI in healthcare leverages technologies like machine learning and natural language processing to improve diagnosis, treatment, and patient care.
+                 It enhances medical imaging, detecting diseases with high accuracy.
+                  AI also enables predictive analytics to identify disease risks and trends.
+                   Personalized medicine uses AI to tailor treatments based on genetics and health data.
+                    Virtual assistants and chatbots improve patient engagement by providing 24/7 support.
+                     AI accelerates drug discovery and assists in surgery with robotic systems. 
+                     It also helps with remote monitoring and managing chronic conditions.
+                      AI reduces administrative burdens, increasing efficiency in healthcare operations.
+                       Despite challenges in data privacy and ethical concerns, AI is revolutionizing healthcare.
+                        It promises more accurate, cost-effective, and accessible care for all..</p>
+            <img src="overview.jpeg" alt="AI in healthcare overview" class="section-image">
+        </section>
+
+        <section id="benefits" class="content">
+            <h2>Benefits of AI</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="BOA.jpeg" alt="Improved Diagnostics">
+                    <h3>Improved Diagnostics</h3>
+                </div>
+                <div class="card">
+                    <img src="PM.webp" alt="Personalized Treatments">
+                    <h3>Personalized Treatments</h3>
+                </div>
+                <div class="card">
+                    <img src="OE.png" alt="Operational Efficiency">
+                    <h3>Operational Efficiency</h3>
+                </div>
+                <div class="card">
+                    <img src="AID.webp" alt="Drug Discovery">
+                    <h3>Drug Discovery</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="applications" class="content">
+            <h2>Applications</h2>
+            <div id="app-container" class="card-container">
+                <!-- Dynamic cards will load here -->
+            </div>
+        </section>        
+
+        <section id="contact" class="content">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 AI in Healthcare. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
