@@ -17,6 +17,7 @@ header .logo h1 {
     text-transform: uppercase;
     border-bottom: 2px solid #4c9daf;
 }
+
 /* Section Images */
 .section-image {
     max-width: 100%;
@@ -24,10 +25,8 @@ header .logo h1 {
     margin: 20px auto;
     display: block;
     border-radius: 10px;
-    /* Ensures the image is centered and fits well within its container */
     object-fit: contain; /* Ensures the whole image is visible without distortion */
 }
-
 
 /* Navigation */
 nav ul {
@@ -76,11 +75,15 @@ nav ul li a:hover {
     padding: 10px 20px;
     border-radius: 25px;
 }
-.hero-image {
-    width: 50%; /* Adjust width to make it smaller */
-    height: auto; /* Keep aspect ratio */
-}
 
+.hero-image {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Applications Section */
 .card-container {
@@ -92,7 +95,7 @@ nav ul li a:hover {
 
 .card {
     background: #ffffff;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     width: 220px;
     text-align: center;
@@ -105,4 +108,28 @@ nav ul li a:hover {
     height: 150px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .hero-image {
+        width: 80%;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
 }
